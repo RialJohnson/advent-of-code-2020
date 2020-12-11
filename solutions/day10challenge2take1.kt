@@ -6,7 +6,7 @@
 /*
  * NOTE: THIS IS A BAD SOLUTION
  * It's runtime is O(2^n)
- * Unless you are sitting around with infinite time or resources, it will only work for small input sizes
+ * Unless you are sitting around with infinite time and resources, it will only work for small input sizes
  */
 
 fun main() {
