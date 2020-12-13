@@ -25,8 +25,8 @@ fun findOptimalBusTime(timeToLeave: Long, busTimes: String): Long {
         val difference = firstPossibleTime - timeToLeave
         
         if (difference < lowestDifference) {
-			lowestDifference = difference
-        	lowestIndex = index
+	    lowestDifference = difference
+            lowestIndex = index
         } 
     }
     
